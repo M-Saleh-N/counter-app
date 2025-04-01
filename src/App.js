@@ -9,6 +9,8 @@ function App() {
   }
   const decrementButton = () => {
     setCount(count - 1)
+    if (count === 0)
+      setCount (0)
   }
   const resetButton = () => {
     setCount(0)
