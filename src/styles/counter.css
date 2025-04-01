@@ -40,4 +40,14 @@
   .btn-primary:hover {
     background-color: #218838;
   }
- 
+  
+  /* Decrement button (Red) */
+  .btn-danger {
+    background-color: #dc3545;
+    border: none;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
