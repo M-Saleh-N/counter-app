@@ -10,6 +10,9 @@ function App() {
   const decrementButton = () => {
     setCount(count - 1)
   }
+  const resetButton = () => {
+    setCount(0)
+  }
  
   return (
     <div className="cont">
@@ -20,6 +23,7 @@ function App() {
             <h2> {count}</h2>
             <button onClick = {incrementButton}className="btn btn-primary"> increment</button>
             <button onClick = {decrementButton}className="btn btn-danger"> decrement</button>
+            <button onClick={resetButton} className=" btn btn-reset"> reset</button>
           </div>
         </div>
       </div>
