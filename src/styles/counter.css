@@ -1,10 +1,11 @@
+
 /* Center the counter */
 .cont {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f8f9fa;
+    background-color: #131d27;
   }
   
   /* Style the card */
