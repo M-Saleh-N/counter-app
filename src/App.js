@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 
+
 function App() {
+  const [count, setCount] = useState(1);
   return (
     <div className="cont">
       <div className="card">
