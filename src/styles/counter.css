@@ -30,4 +30,14 @@
     margin: 5px;
     border-radius: 5px;
   }
+  
+  /* Increment button (Green) */
+  .btn-primary {
+    background-color: #28a745;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #218838;
+  }
  
