@@ -1,7 +1,8 @@
 import React, {useState} from "react";
+import "../styles/counter.css"
 
 
-function App() {
+function Counter() {
   const [count, setCount] = useState(0);
 
   const incrementButton = () => {
@@ -33,4 +34,4 @@ function App() {
   );
 }
 
-export default App;
+export default Counter;
